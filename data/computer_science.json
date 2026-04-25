@@ -1,0 +1,758 @@
+[
+    {
+        "question": "What is a variable?",
+        "answer": "A variable is a named storage location in a program that holds a value which can change during execution."
+    },
+    {
+        "question": "What is a data type?",
+        "answer": "A data type defines the kind of data a variable can store, such as integers, floating-point numbers, or strings."
+    },
+    {
+        "question": "What is an integer?",
+        "answer": "An integer is a data type used to represent whole numbers without decimal points."
+    },
+    {
+        "question": "What is a string?",
+        "answer": "A string is a sequence of characters used to represent text in a program."
+    },
+    {
+        "question": "What is a boolean?",
+        "answer": "A boolean is a data type that represents either true or false."
+    },
+    {
+        "question": "What is a function?",
+        "answer": "A function is a reusable block of code that performs a specific task and can be called multiple times."
+    },
+    {
+        "question": "What does a function do?",
+        "answer": "A function executes a set of instructions and can optionally return a result to the caller."
+    },
+    {
+        "question": "What is a loop?",
+        "answer": "A loop is a programming construct that repeats a block of code until a condition is met."
+    },
+    {
+        "question": "What is a for loop?",
+        "answer": "A for loop is a loop that runs a specific number of times, often used to iterate over a sequence."
+    },
+    {
+        "question": "What is a while loop?",
+        "answer": "A while loop repeatedly executes code as long as a condition remains true."
+    },
+    {
+        "question": "What is a conditional statement?",
+        "answer": "A conditional statement allows a program to execute different code depending on whether a condition is true or false."
+    },
+    {
+        "question": "What is an if statement?",
+        "answer": "An if statement is used to run code only when a specified condition evaluates to true."
+    },
+    {
+        "question": "What is an array?",
+        "answer": "An array is a data structure that stores a fixed-size sequence of elements of the same type."
+    },
+    {
+        "question": "What is a list?",
+        "answer": "A list is a collection of elements that can grow or shrink dynamically and allows ordered access to its items."
+    },
+    {
+        "question": "What is a data structure?",
+        "answer": "A data structure is a way of organizing and storing data so it can be accessed and modified efficiently."
+    },
+    {
+        "question": "What is a stack?",
+        "answer": "A stack is a data structure that follows the Last In, First Out (LIFO) principle, where the most recently added item is removed first. :contentReference[oaicite:0]{index=0}"
+    },
+    {
+        "question": "How does a stack work?",
+        "answer": "A stack works by adding elements to the top using push and removing them from the top using pop, following the Last In, First Out principle. :contentReference[oaicite:1]{index=1}"
+    },
+    {
+        "question": "What is a queue?",
+        "answer": "A queue is a data structure that follows the First In, First Out (FIFO) principle, where the first element added is the first removed. :contentReference[oaicite:2]{index=2}"
+    },
+    {
+        "question": "How does a queue work?",
+        "answer": "A queue works by adding elements to the back and removing elements from the front, following the First In, First Out rule. :contentReference[oaicite:3]{index=3}"
+    },
+    {
+        "question": "What is a linked list?",
+        "answer": "A linked list is a collection of nodes where each node contains data and a reference to the next node in the sequence. :contentReference[oaicite:4]{index=4}"
+    },
+    {
+        "question": "Why use a linked list?",
+        "answer": "Linked lists are useful because they allow efficient insertion and removal of elements without shifting other elements in memory. :contentReference[oaicite:5]{index=5}"
+    },
+    {
+        "question": "What is a node?",
+        "answer": "A node is a basic unit in a data structure that contains data and may include references to other nodes. :contentReference[oaicite:6]{index=6}"
+    },
+    {
+        "question": "What is a hash table?",
+        "answer": "A hash table is a data structure that stores key-value pairs and uses a hash function to map keys to specific locations for fast lookup. :contentReference[oaicite:7]{index=7}"
+    },
+    {
+        "question": "How does a hash table work?",
+        "answer": "A hash table uses a hash function to convert a key into an index in an array where the corresponding value is stored. :contentReference[oaicite:8]{index=8}"
+    },
+    {
+        "question": "What is a hash function?",
+        "answer": "A hash function is a function that converts input data into a fixed-size value used to index into a hash table. :contentReference[oaicite:9]{index=9}"
+    },
+    {
+        "question": "What is an algorithm?",
+        "answer": "An algorithm is a step-by-step procedure for solving a problem or completing a task."
+    },
+    {
+        "question": "What is time complexity?",
+        "answer": "Time complexity measures how the runtime of an algorithm changes as the size of the input increases."
+    },
+    {
+        "question": "What is space complexity?",
+        "answer": "Space complexity measures how much memory an algorithm uses relative to the input size."
+    },
+    {
+        "question": "What is Big-O notation?",
+        "answer": "Big-O notation describes the upper bound of an algorithm's runtime or memory usage as input size grows."
+    },
+    {
+        "question": "What is recursion?",
+        "answer": "Recursion is a technique where a function calls itself to solve smaller instances of a problem."
+    },
+    {
+        "question": "What is a binary tree?",
+        "answer": "A binary tree is a hierarchical data structure where each node has at most two children."
+    },
+    {
+        "question": "What is a graph?",
+        "answer": "A graph is a data structure made up of nodes connected by edges."
+    },
+    {
+        "question": "What is a compiler?",
+        "answer": "A compiler is a program that translates source code into machine code before execution."
+    },
+    {
+        "question": "What is an interpreter?",
+        "answer": "An interpreter executes code line by line without converting it into machine code beforehand."
+    },
+    {
+        "question": "What is debugging?",
+        "answer": "Debugging is the process of finding and fixing errors or bugs in a program."
+    },
+    {
+        "question": "What is an exception?",
+        "answer": "An exception is an error that occurs during program execution that disrupts normal flow."
+    },
+    {
+        "question": "What is object-oriented programming?",
+        "answer": "Object-oriented programming is a programming paradigm based on objects that contain data and methods."
+    },
+    {
+        "question": "What is a class?",
+        "answer": "A class is a blueprint used to create objects, defining their properties and behaviors."
+    },
+    {
+        "question": "What is an object?",
+        "answer": "An object is an instance of a class that contains data and methods."
+    },
+    {
+        "question": "What is encapsulation?",
+        "answer": "Encapsulation is the concept of bundling data and methods together and restricting direct access to them."
+    },
+    {
+        "question": "What is inheritance?",
+        "answer": "Inheritance is a feature that allows one class to reuse properties and methods from another class."
+    },
+    {
+        "question": "What is a parameter?",
+        "answer": "A parameter is a variable in a function definition that receives a value when the function is called."
+    },
+    {
+        "question": "What is an argument?",
+        "answer": "An argument is the actual value passed into a function when it is called."
+    },
+    {
+        "question": "What is return in a function?",
+        "answer": "Return is used to send a value back from a function to the part of the program that called it."
+    },
+    {
+        "question": "What is a library in programming?",
+        "answer": "A library is a collection of prewritten code that can be reused in programs."
+    },
+    {
+        "question": "What is an API?",
+        "answer": "An API is a set of rules that allows different software systems to communicate with each other."
+    },
+    {
+        "question": "What is software?",
+        "answer": "Software is a set of instructions and programs that tell a computer what to do."
+    },
+    {
+        "question": "What is hardware?",
+        "answer": "Hardware refers to the physical components of a computer system."
+    },
+    {
+        "question": "What is RAM?",
+        "answer": "RAM is temporary memory used by a computer to store data currently in use."
+    },
+    {
+        "question": "What is a CPU?",
+        "answer": "The CPU is the central processing unit that executes instructions in a computer."
+    },
+    {
+        "question": "What is a bug in programming?",
+        "answer": "A bug is an error or flaw in a program that causes incorrect behavior."
+    },
+    {
+        "question": "What is version control?",
+        "answer": "Version control is a system that tracks changes to code over time."
+    },
+    {
+        "question": "What is Git?",
+        "answer": "Git is a version control system used to track and manage changes in code."
+    },
+    {
+        "question": "What is GitHub?",
+        "answer": "GitHub is a platform for hosting and collaborating on Git repositories."
+    },
+    {
+        "question": "What is a repository?",
+        "answer": "A repository is a storage location for a project’s files and version history."
+    },
+    {
+        "question": "What is a framework?",
+        "answer": "A framework is a structured set of tools and libraries used to build applications."
+    },
+    {
+        "question": "What is a programming language?",
+        "answer": "A programming language is a system of rules used to write instructions for computers."
+    },
+    {
+        "question": "What is syntax in programming?",
+        "answer": "Syntax refers to the rules that define the structure of valid code in a programming language."
+    },
+    {
+        "question": "What is debugging output?",
+        "answer": "Debugging output is information printed by a program to help find and fix errors."
+    },
+    {
+        "question": "What is compilation?",
+        "answer": "Compilation is the process of translating source code into machine code."
+    },
+    {
+        "question": "What is runtime?",
+        "answer": "Runtime is the period when a program is executing."
+    },
+    {
+        "question": "What is memory allocation?",
+        "answer": "Memory allocation is the process of reserving space in memory for data."
+    },
+    {
+        "question": "What is garbage collection?",
+        "answer": "Garbage collection is the automatic process of freeing unused memory."
+    },
+    {
+        "question": "What is a pointer?",
+        "answer": "A pointer is a variable that stores the memory address of another variable."
+    },
+    {
+        "question": "What is abstraction?",
+        "answer": "Abstraction is the concept of hiding complex implementation details and showing only essential features."
+    },
+    {
+        "question": "What is modular programming?",
+        "answer": "Modular programming is a design approach where a program is divided into separate modules."
+    },
+    {
+        "question": "What is a compiler error?",
+        "answer": "A compiler error occurs when code violates language rules and cannot be translated."
+    },
+    {
+        "question": "What is a runtime error?",
+        "answer": "A runtime error occurs while the program is running and causes it to stop or behave incorrectly."
+    },
+    {
+        "question": "What is syntax error?",
+        "answer": "A syntax error occurs when code does not follow the grammatical rules of a programming language."
+    },
+    {
+        "question": "What is an IDE?",
+        "answer": "An IDE is an integrated development environment that provides tools for writing and testing code."
+    },
+    {
+        "question": "What is testing in software development?",
+        "answer": "Testing is the process of evaluating software to ensure it works correctly."
+    },
+    {
+        "question": "What is unit testing?",
+        "answer": "Unit testing is testing individual components or functions of a program."
+    },
+    {
+        "question": "What is a tree traversal?",
+        "answer": "Tree traversal is the process of visiting all nodes in a tree data structure."
+    },
+    {
+        "question": "What is pre-order traversal?",
+        "answer": "Pre-order traversal visits the root node first, then the left subtree, then the right subtree."
+    },
+    {
+        "question": "What is in-order traversal?",
+        "answer": "In-order traversal visits the left subtree, then the root, then the right subtree."
+    },
+    {
+        "question": "What is post-order traversal?",
+        "answer": "Post-order traversal visits the left subtree, right subtree, and then the root."
+    },
+    {
+        "question": "What is sorting?",
+        "answer": "Sorting is the process of arranging data in a specific order such as ascending or descending."
+    },
+    {
+        "question": "What is searching?",
+        "answer": "Searching is the process of finding a specific item in a collection of data."
+    },
+    {
+        "question": "What is linear search?",
+        "answer": "Linear search checks each element one by one until the target is found."
+    },
+    {
+        "question": "What is binary search?",
+        "answer": "Binary search is an efficient algorithm that repeatedly divides a sorted list to find a target value."
+    },
+    {
+        "question": "What is a database?",
+        "answer": "A database is an organized collection of data that can be easily accessed and managed."
+    },
+    {
+        "question": "What is SQL?",
+        "answer": "SQL is a language used to manage and query relational databases."
+    },
+    {
+        "question": "What is normalization in databases?",
+        "answer": "Normalization is the process of organizing database data to reduce redundancy."
+    },
+    {
+        "question": "What is a primary key?",
+        "answer": "A primary key is a unique identifier for each record in a database table."
+    },
+    {
+        "question": "What is concurrency?",
+        "answer": "Concurrency is the ability of a system to run multiple tasks at the same time."
+    },
+    {
+        "question": "What is multithreading?",
+        "answer": "Multithreading is a technique where multiple threads run within a single process."
+    },
+    {
+        "question": "What is an operating system?",
+        "answer": "An operating system is software that manages hardware and software resources on a computer."
+    },
+    {
+        "question": "What is deadlock?",
+        "answer": "Deadlock is a situation where two or more processes are blocked waiting for each other indefinitely."
+    },
+    {
+        "question": "What is caching?",
+        "answer": "Caching is storing frequently used data in a faster storage layer to improve performance."
+    },
+    {
+        "question": "What is latency?",
+        "answer": "Latency is the delay between a request and its response in a system."
+    },
+    {
+        "question": "What is a constructor?",
+        "answer": "A constructor is a special method used to initialize objects when they are created."
+    },
+    {
+        "question": "What is method overloading?",
+        "answer": "Method overloading is when multiple methods have the same name but different parameters."
+    },
+    {
+        "question": "What is method overriding?",
+        "answer": "Method overriding is when a subclass provides a specific implementation of a method already defined in its parent class."
+    },
+    {
+        "question": "What is a superclass?",
+        "answer": "A superclass is a class that is inherited by another class."
+    },
+    {
+        "question": "What is a subclass?",
+        "answer": "A subclass is a class that inherits from another class."
+    },
+    {
+        "question": "What is a package in programming?",
+        "answer": "A package is a way to organize related classes and files in a program."
+    },
+    {
+        "question": "What is a module?",
+        "answer": "A module is a file containing code that can be reused in other programs."
+    },
+    {
+        "question": "What is an import statement?",
+        "answer": "An import statement is used to bring external modules or libraries into a program."
+    },
+    {
+        "question": "What is indentation in programming?",
+        "answer": "Indentation is spacing used to define code blocks in some programming languages like Python."
+    },
+    {
+        "question": "What is a compiler warning?",
+        "answer": "A compiler warning indicates potential issues in code that do not stop compilation but may cause problems."
+    },
+    {
+        "question": "What is a logic error?",
+        "answer": "A logic error is a mistake in the program's logic that produces incorrect output without crashing."
+    },
+    {
+        "question": "What is a segmentation fault?",
+        "answer": "A segmentation fault occurs when a program tries to access memory it is not allowed to access."
+    },
+    {
+        "question": "What is an index in an array?",
+        "answer": "An index is a position number used to access elements in an array."
+    },
+    {
+        "question": "What is a multidimensional array?",
+        "answer": "A multidimensional array is an array that contains other arrays as its elements."
+    },
+    {
+        "question": "What is a string method?",
+        "answer": "A string method is a function used to perform operations on string data."
+    },
+    {
+        "question": "What is concatenation?",
+        "answer": "Concatenation is the process of joining two or more strings together."
+    },
+    {
+        "question": "What is a constant?",
+        "answer": "A constant is a value that does not change during program execution."
+    },
+    {
+        "question": "What is type casting?",
+        "answer": "Type casting is converting a variable from one data type to another."
+    },
+    {
+        "question": "What is implicit type conversion?",
+        "answer": "Implicit type conversion is when the programming language automatically converts one data type to another."
+    },
+    {
+        "question": "What is explicit type conversion?",
+        "answer": "Explicit type conversion is when the programmer manually converts a value from one type to another."
+    },
+    {
+        "question": "What is a framework?",
+        "answer": "A framework is a structured platform that provides tools and libraries for building applications."
+    },
+    {
+        "question": "What is front-end development?",
+        "answer": "Front-end development focuses on the user interface and user experience of a website or application."
+    },
+    {
+        "question": "What is back-end development?",
+        "answer": "Back-end development focuses on server-side logic, databases, and application functionality."
+    },
+    {
+        "question": "What is full-stack development?",
+        "answer": "Full-stack development involves working on both front-end and back-end systems."
+    },
+    {
+        "question": "What is HTTP?",
+        "answer": "HTTP is a protocol used for transferring data over the web."
+    },
+    {
+        "question": "What is HTTPS?",
+        "answer": "HTTPS is a secure version of HTTP that encrypts data during transmission."
+    },
+    {
+        "question": "What is a URL?",
+        "answer": "A URL is the address used to locate resources on the internet."
+    },
+    {
+        "question": "What is DNS?",
+        "answer": "DNS translates domain names into IP addresses."
+    },
+    {
+        "question": "What is an IP address?",
+        "answer": "An IP address is a unique identifier for a device on a network."
+    },
+    {
+        "question": "What is a server?",
+        "answer": "A server is a system that provides data or services to other computers over a network."
+    },
+    {
+        "question": "What is a client?",
+        "answer": "A client is a device or program that requests services from a server."
+    },
+    {
+        "question": "What is latency in networking?",
+        "answer": "Latency is the time delay between sending and receiving data over a network."
+    },
+    {
+        "question": "What is throughput?",
+        "answer": "Throughput is the amount of data transmitted over a network in a given time."
+    },
+    {
+        "question": "What is encryption?",
+        "answer": "Encryption is the process of converting data into a secure format to prevent unauthorized access."
+    },
+    {
+        "question": "What is decryption?",
+        "answer": "Decryption is the process of converting encrypted data back into readable form."
+    },
+    {
+        "question": "What is authentication?",
+        "answer": "Authentication is the process of verifying the identity of a user or system."
+    },
+    {
+        "question": "What is authorization?",
+        "answer": "Authorization determines what an authenticated user is allowed to access."
+    },
+    {
+        "question": "What is a file system?",
+        "answer": "A file system is a method of organizing and storing files on a storage device."
+    },
+    {
+        "question": "What is a directory?",
+        "answer": "A directory is a folder used to organize files in a file system."
+    },
+    {
+        "question": "What is an exception handling?",
+        "answer": "Exception handling is a mechanism to manage runtime errors gracefully."
+    },
+    {
+        "question": "What is a try-catch block?",
+        "answer": "A try-catch block is used to handle exceptions in a program."
+    },
+    {
+        "question": "What is stack overflow?",
+        "answer": "Stack overflow occurs when a program uses more stack memory than is available, often due to infinite recursion."
+    },
+    {
+        "question": "What is a heap?",
+        "answer": "A heap is a memory region used for dynamic memory allocation."
+    },
+    {
+        "question": "What is sorting algorithm complexity?",
+        "answer": "Sorting algorithm complexity measures how efficiently a sorting algorithm performs based on input size."
+    },
+    {
+        "question": "What is selection sort?",
+        "answer": "Selection sort is a sorting algorithm that repeatedly selects the smallest element and moves it to the front."
+    },
+    {
+        "question": "What is bubble sort?",
+        "answer": "Bubble sort is a simple sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order."
+    },
+    {
+        "question": "What is merge sort?",
+        "answer": "Merge sort is a divide-and-conquer sorting algorithm that splits and merges arrays."
+    },
+    {
+        "question": "What is quicksort?",
+        "answer": "Quicksort is a fast sorting algorithm that uses a pivot element to partition the array."
+    },
+    {
+        "question": "What is a priority queue?",
+        "answer": "A priority queue is a data structure where elements are processed based on priority rather than order."
+    },
+    {
+        "question": "What is a circular queue?",
+        "answer": "A circular queue is a queue where the last position connects back to the first to efficiently use space."
+    },
+    {
+        "question": "What is a data structure?",
+        "answer": "A data structure is a way of organizing and storing data so it can be accessed and used efficiently."
+    },
+    {
+        "question": "What is an array?",
+        "answer": "An array is a collection of elements stored in contiguous memory locations with a fixed size."
+    },
+    {
+        "question": "What is a dynamic array?",
+        "answer": "A dynamic array can resize itself automatically when elements are added or removed."
+    },
+    {
+        "question": "What is a linked list?",
+        "answer": "A linked list is a sequence of nodes where each node points to the next node."
+    },
+    {
+        "question": "What is a singly linked list?",
+        "answer": "A singly linked list is a linked list where each node points only to the next node."
+    },
+    {
+        "question": "What is a doubly linked list?",
+        "answer": "A doubly linked list is a linked list where each node has pointers to both the next and previous nodes."
+    },
+    {
+        "question": "What is a circular linked list?",
+        "answer": "A circular linked list is a linked list where the last node points back to the first node."
+    },
+    {
+        "question": "What is a stack?",
+        "answer": "A stack is a data structure that follows Last In, First Out (LIFO) order."
+    },
+    {
+        "question": "What are stack operations?",
+        "answer": "Common stack operations are push, pop, and peek."
+    },
+    {
+        "question": "What is push in a stack?",
+        "answer": "Push is the operation of adding an element to the top of a stack."
+    },
+    {
+        "question": "What is pop in a stack?",
+        "answer": "Pop is the operation of removing the top element from a stack."
+    },
+    {
+        "question": "What is a queue?",
+        "answer": "A queue is a data structure that follows First In, First Out (FIFO) order."
+    },
+    {
+        "question": "What is enqueue?",
+        "answer": "Enqueue is the operation of adding an element to the rear of a queue."
+    },
+    {
+        "question": "What is dequeue?",
+        "answer": "Dequeue is the operation of removing an element from the front of a queue."
+    },
+    {
+        "question": "What is a deque?",
+        "answer": "A deque is a double-ended queue that allows insertion and removal from both ends."
+    },
+    {
+        "question": "What is a priority queue?",
+        "answer": "A priority queue is a queue where elements are processed based on priority rather than order."
+    },
+    {
+        "question": "What is a heap?",
+        "answer": "A heap is a tree-based structure that satisfies the heap property where parent nodes are ordered relative to children."
+    },
+    {
+        "question": "What is a binary heap?",
+        "answer": "A binary heap is a complete binary tree used to implement priority queues."
+    },
+    {
+        "question": "What is a min heap?",
+        "answer": "A min heap is a heap where the smallest element is always at the root."
+    },
+    {
+        "question": "What is a max heap?",
+        "answer": "A max heap is a heap where the largest element is always at the root."
+    },
+    {
+        "question": "What is a tree?",
+        "answer": "A tree is a hierarchical data structure made of nodes connected by edges."
+    },
+    {
+        "question": "What is a binary tree?",
+        "answer": "A binary tree is a tree where each node has at most two children."
+    },
+    {
+        "question": "What is a binary search tree?",
+        "answer": "A binary search tree is a binary tree where left child nodes are smaller and right child nodes are larger than the parent."
+    },
+    {
+        "question": "What is tree traversal?",
+        "answer": "Tree traversal is the process of visiting all nodes in a tree in a specific order."
+    },
+    {
+        "question": "What is preorder traversal?",
+        "answer": "Preorder traversal visits the root, then left subtree, then right subtree."
+    },
+    {
+        "question": "What is inorder traversal?",
+        "answer": "Inorder traversal visits left subtree, root, then right subtree."
+    },
+    {
+        "question": "What is postorder traversal?",
+        "answer": "Postorder traversal visits left subtree, right subtree, then root."
+    },
+    {
+        "question": "What is a graph?",
+        "answer": "A graph is a collection of nodes connected by edges."
+    },
+    {
+        "question": "What is a directed graph?",
+        "answer": "A directed graph has edges with a direction from one node to another."
+    },
+    {
+        "question": "What is an undirected graph?",
+        "answer": "An undirected graph has edges with no direction."
+    },
+    {
+        "question": "What is a weighted graph?",
+        "answer": "A weighted graph assigns a value or weight to each edge."
+    },
+    {
+        "question": "What is adjacency list?",
+        "answer": "An adjacency list represents a graph using lists of neighbors for each node."
+    },
+    {
+        "question": "What is adjacency matrix?",
+        "answer": "An adjacency matrix represents a graph using a 2D matrix of connections."
+    },
+    {
+        "question": "What is BFS?",
+        "answer": "Breadth-first search explores a graph level by level."
+    },
+    {
+        "question": "What is DFS?",
+        "answer": "Depth-first search explores a graph by going as deep as possible before backtracking."
+    },
+    {
+        "question": "What is hashing?",
+        "answer": "Hashing is the process of converting data into a fixed-size value using a hash function."
+    },
+    {
+        "question": "What is a hash table?",
+        "answer": "A hash table stores key-value pairs using a hash function for fast lookup."
+    },
+    {
+        "question": "What is a collision in hashing?",
+        "answer": "A collision occurs when two keys produce the same hash index."
+    },
+    {
+        "question": "What is collision resolution?",
+        "answer": "Collision resolution is the method used to handle conflicts in a hash table."
+    },
+    {
+        "question": "What is chaining in hash tables?",
+        "answer": "Chaining handles collisions by storing multiple values in the same index using a list."
+    },
+    {
+        "question": "What is open addressing?",
+        "answer": "Open addressing resolves collisions by finding another empty slot in the table."
+    },
+    {
+        "question": "What is a trie?",
+        "answer": "A trie is a tree structure used to store strings for efficient prefix searching."
+    },
+    {
+        "question": "What is a segment tree?",
+        "answer": "A segment tree is a data structure used for efficient range queries and updates."
+    },
+    {
+        "question": "What is a disjoint set?",
+        "answer": "A disjoint set is a structure that tracks elements partitioned into non-overlapping sets."
+    },
+    {
+        "question": "What is union-find?",
+        "answer": "Union-find is a structure used to manage disjoint sets and efficiently find and merge groups."
+    },
+    {
+        "question": "What is amortized analysis?",
+        "answer": "Amortized analysis averages the time complexity of operations over a sequence of operations."
+    },
+    {
+        "question": "What is space efficiency in data structures?",
+        "answer": "Space efficiency measures how much memory a data structure uses."
+    },
+    {
+        "question": "What is time efficiency in data structures?",
+        "answer": "Time efficiency measures how quickly operations can be performed on a data structure."
+    },
+    {
+        "question": "Why are data structures important?",
+        "answer": "Data structures are important because they help organize data efficiently for faster processing."
+    }
+]
